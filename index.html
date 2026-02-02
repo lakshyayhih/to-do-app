@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do APP</h1>
+    <div>
+        <form>
+            <label>Task Name :</label> <br>
+            <input id="tname" type="text" placeholder="Type Task Name"> <br>
+
+            <label for="">Description :</label> <br>
+            <textarea id="descript" type="text" rows="5" cols="40" Placeholder="Give Description for task"></textarea> <br>
+
+            <label for="">Piriority :</label> <br>
+            <select  id="tpiriority"> 
+                <option value="">Select Priority :</option>
+                <option value="Low">Low</option>
+                <option value="Moderate">Moderate</option>
+                <option value="High">High</option>
+            </select> <br>
+
+            <input type="submit"/>
+        </form>
+        <table>
+            <caption>Daily Tasks</caption>
+            <thead>
+                <tr>
+                    <th id="taskname">Task name</th>
+                    <th id="description">Description</th>
+                    <th id="piriority">Piriority</th>
+                    <th id="delete">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

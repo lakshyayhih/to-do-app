@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    gap: 100px;
+
+}
+th{
+    background-color: gray;
+    
+}
+label ,input,select{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#taskname{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+#description{
+    padding-left: 240px;
+    padding-right: 240px;
+}
+#piriority{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#delete{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+tr{
+    
+    background-color: rgb(197, 196, 196);
+}
+td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
