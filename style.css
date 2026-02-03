@@ -45,3 +45,16 @@ td{
     padding-bottom: 5px;
 
 }
+
+.del{
+    background-color: red;
+}
+
+.fa-trash-can{
+    color: red;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
